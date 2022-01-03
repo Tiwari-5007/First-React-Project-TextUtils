@@ -1,4 +1,5 @@
-import { useState } from 'react/cjs/react.development';
+// import { useState } from 'react/cjs/react.development';
+import React, {useState} from 'react';
 import Alert from './components/Alert';
 import About from './components/About';
 import Navbar from './components/Navbar';
@@ -11,7 +12,7 @@ import {
 
 function App() {
 
-  const [mode, setMode] = useState('light');
+  let [mode, setMode] = useState('light');
   const [alert, setAlert] = useState(null);
 
   const toggleMode = () => {
@@ -42,7 +43,7 @@ function App() {
     <>
       <Navbar title="TextUtils" aboutText="About TextUtils" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
-
+      
       <div className="container my-3">
         <Routes>
           <Route path="/" element={<TextForm heading="Try TextUtils - Word Counter, Character counter, Remove extra spaces" mode={mode} showAlert={showAlert} />} />
