@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/First-React-Project-TextUtils/static/js/main.8a1e34fa.js",
+    "static/js/787.cfd8f164.chunk.js": "/First-React-Project-TextUtils/static/js/787.cfd8f164.chunk.js",
+    "index.html": "/First-React-Project-TextUtils/index.html",
+    "main.8a1e34fa.js.map": "/First-React-Project-TextUtils/static/js/main.8a1e34fa.js.map",
+    "787.cfd8f164.chunk.js.map": "/First-React-Project-TextUtils/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.8a1e34fa.js"
+  ]
+}
